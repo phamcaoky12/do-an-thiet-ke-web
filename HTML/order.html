@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/file.css" />
+    <link rel="stylesheet" href="../FontAwesome/fontawesome-free-5.13.0-web/css/all.css">
+    <link rel="stylesheet" href="../CSS/gio-hang.css">
+    <title>Giỏ hàng</title>
+    <style>
+        #footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .cart-title {
+            text-align: center;
+            margin: 25px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="menu">
+            <nav class="navbar navbar-inverse ">
+                <div id="menu" class="row dong">
+
+                    <div class="col-md-5">
+                        <ul class="nav navbar-nav">
+                            <li><a href="Trang chủ.html"><i class="fas fa-home fa-fw"
+                                        style="background:rgb(12, 12, 12)"></i>Home</a></li>
+                            <li><a href="Sam Sung.html">Sam sung</a></li>
+                            <li><a href="Vsmart.html">Vsmart</a></li>
+                            <li><a href="Xiaomi.html">Xiaomi</a></li>
+                            <li><a href="Realme.html">Realme</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 dong2">
+                        <input type="btn btn-link search-btn" placeholder="Nhập tên sản phẩm cần tìm..." /> <button
+                            type="button" class="btn btn-default btn-lg"> <i
+                                class="glyphicon glyphicon-search"></i></button>
+                        <button type="button" class="btn btn-default btn-lg" data-toggle="modal"
+                            data-target="#myModal">Đăng nhập</button>
+                        <button type="button" class="btn btn-default btn-lg" data-toggle="modal"
+                            data-target="#myModal1">Đăng kí</button><br>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+
+        <div id="cart">
+            <div class="clearfix">
+                <div id="main">
+                    <h3 class="cart-title">ĐƠN HÀNG CỦA BẠN</h1>
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-10">
+                                <div class="col-md-8">
+                                    <div class="container">
+                                        <table id="cart" class="table table-hover table-condensed">
+                                            <thead>
+                                                <tr>
+                                                    <th style="width:25%">Hình sản phẩm</th>
+                                                    <th style="width:25%">Tên sản phẩm</th>
+                                                    <th style="width:10%">Giá</th>
+                                                    <!-- <th style="width:10%">Số lượng</th> -->
+                                                    <!-- <th style="width:20%" class="text-center">Thành tiền</th> -->
+                                                    <!-- <th style="width:10%"> </th> -->
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <div class="center"><a href="../HTML/Vsmart Aris.html"><img
+                                                                    src="../Images/Vsmart/Vsmart Aris/logo.png"
+                                                                    alt="Sản phẩm 1" width="100px"></a>
+                                                    </td>
+                                                    <td>
+                                                        <div class="col-sm-10">
+                                                            <a href="../HTML/Vsmart Aris.html">
+                                                                <h4 class="nomargin">Điện thoại thoại Vsmart Aris</h4>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Price"><span id="gia">5.990.000</span></td>
+                                                    <!-- <td data-th="Quantity"><input class="form-control text-center"
+                                                            value="1" type="number" min="1" id="sl"></td>
+                                                    <td><label id="tong"></label></td> -->
+                                                    <!-- <td class="actions" data-th="">
+                                                        <button class="btn btn-info btn-sm"><i class="fa fa-edit"
+                                                                id="tong"></i></button>
+                                                        <button class="btn btn-danger btn-sm" onclick="xoagiohang()"><i
+                                                                class="fa fa-trash-alt"></i></button>
+                                                    </td> -->
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="center"><a
+                                                                href="../HTML/Sam Sung Galaxy S20 FE.html"><img
+                                                                    src="../Images/Sam Sung/Sam sung Galaxy S20 FE/logo.png"
+                                                                    alt="Sản phẩm 1" width="100px"></a></div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="col-sm-10">
+                                                            <a href="../HTML/Sam Sung Galaxy S20 FE.html">
+                                                                <h4 class="nomargin">Điện thoại Sam Sung Galaxy S20 FE
+                                                                </h4>
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                    <td data-th="Price"><span id="gia">15.490.000</span></td>
+                                                    <!-- <td data-th="Quantity"><input id="sl"
+                                                            class="form-control text-center" value="1" type="number"
+                                                            min="1"></td>
+                                                    <td><label id="tong"></label></td>
+                                                    <td class="actions" data-th="">
+                                                        <button class="btn btn-info btn-sm"><i class="fa fa-edit"
+                                                                id="tong"></i></button>
+                                                        <button class="btn btn-danger btn-sm" onclick="xoagiohang()"><i
+                                                                class="fa fa-trash-alt"></i></button>
+                                                    </td> -->
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="visible-xs">
+                                                    <td class="text-center"><strong>Tổng 15.490.000</strong></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="Trang chủ.html"><i class="fa fa-angle-left"></i> Tiếp
+                                                            tục
+                                                            mua hàng</a></td>
+                                                    <!-- <td colspan="2" class="hidden-xs"> </td> -->
+                                                    <td class="hidden-xs text-center"><strong>Tổng tiền
+                                                            21.480.000</strong>
+                                                    </td>
+                                                    <!-- <td>
+                                                        <button id="btn-pay" class="btn btn-success btn-block">Thanh
+                                                            toán
+                                                            <i class="fa fa-angle-right"></i>
+                                                        </button>
+                                                    </td> -->
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                        <!-- <script src="../JS/file1.js">
+                                        </script> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="footer-contact">
+                <br>
+                <p class="text-center">Hotline: 0967.590.222</p>
+                <p class="text-center"> Địa chỉ: 304/4a Trường Chinh, Phường 13, Quận Tân Bình, TPHCM</p>
+                <p class="text-center">Thời gian làm việc: 08 giờ - 17 giờ từ thứ 2 đến thứ 7</p>
+                <p class="text-center"> (NGHỈ TRƯA 12 giờ - 13 giờ). Chủ nhật: NGHỈ</p>
+            </div>
+            <div class="footer-copyright">
+                <p class="text-center">Copyright 2021 © ALOFONE.VN</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
