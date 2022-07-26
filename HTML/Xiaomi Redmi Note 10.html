@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
+    <script type="text/javascript" src="../JS/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../JS/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/file.css" />
+    <script type="text/javascript" src="../JS/file.js"></script>
+    <link rel="stylesheet" href="../FontAwesome/fontawesome-free-5.13.0-web/css/all.css">
+    <title>Xiaomi Redmi Note 10</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="well well-sm">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p id="date"></p>
+                            <script>
+                                document.getElementById("date").innerHTML = Date();
+                            </script>   
+                    </div>
+                    <div class="col-md-4">
+                        <input type="btn btn-link search-btn" placeholder="Nhập tên sản phẩm cần tìm..." /> <button type="button" class="btn btn-default btn-lg"> <i class="glyphicon glyphicon-search"></i></button>
+                        <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Đăng nhập</button>
+                        <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal1">Đăng kí</button><br>
+                        <button type="button" class="btn btn-default btn-lg"> <a href="Giỏ hàng.html">    <i class="fa fa-shopping-basket" aria-hidden="true"></i> Giỏ Hàng</a></button>
+                    </div>
+                </div>
+                <div class="center"><div class="header1"><img src="../Images/logo.png" width="300px" height="150px"/></div></div>
+            </div>
+            <div class="center">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3">
+                        <div>
+                            <div id="slider">
+                                <a href="Vsmart.html"> <img class="slide" src="../Images/QuangCao/1.png" stt="0" height="250px" width="800px" /></a>
+                                <a href="Realme.html"><img class="slide" src="../Images/QuangCao/2.png" stt="1" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Sam Sung.html"><img class="slide" src="../Images/QuangCao/3.png" stt="2" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Xiaomi.html"><img class="slide" src="../Images/QuangCao/4.png" stt="3" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Xiaomi.html"><img class="slide" src="../Images/QuangCao/5.png" stt="4" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Sam Sung.html"><img class="slide" src="../Images/QuangCao/6.png" stt="5" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Vsmart.html"><img class="slide" src="../Images/QuangCao/7.png" stt="6" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Sam Sung.html"><img class="slide" src="../Images/QuangCao/8.png" stt="7" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Sam Sung.html"><img class="slide" src="../Images/QuangCao/9.png" stt="8" height="250px" width="800px" style="display:none" /></a>
+                                <a href="#" id="next"><img src="../Images/next.png" height="auto" width="0%" /> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <div id="menu">
+                <nav class="navbar navbar-inverse">
+                    <div id="menu" class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-7">
+                            <ul class="nav navbar-nav">
+                                <li><a href="Trang chủ.html"><i class="fas fa-home fa-fw" style="background:rgb(12, 12, 12)"></i>Home</a></li>
+                                <li><a href="Sam Sung.html">Sam sung</a></li>
+                                <li><a href="Vsmart.html">Vsmart</a></li>
+                                <li><a href="Xiaomi.html">Xiaomi</a></li>
+                                <li><a href="Realme.html">Realme</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </nav>
+            </div>
+            <div class="clearfix">     
+                <div id="main">
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-10">
+                            <div class="col-md-8">
+                                <div class="sp3">
+                                    <div class="center"><b>Điện thoại Xiaomi Redmi Note 10</b></div><br>
+                                    <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/logo.png" width="300PX" height="300px">
+                                    <div class="center"><div class="gia"><div class="top1">5.090.000</div></div></div><br>
+                                    <button type="button" class="mua"><a href="../HTML/Giỏ hàng.html"><div class="black">Mua ngay</div></a></button>
+                                    <button type="button" class="them" onclick="getName()"><div class="black">Thêm vào giỏ hàng</div></div</button>
+                                </div>
+                                <div class="center"><img src="../Images/Xiaomi/Xiaomi Redmi Note 10/1.png"></div>
+                                <div><b>Cấu hình Điện thoại Xiaomi Redmi Note 10 (6GB/128GB)</b></div>
+                                <table border="1">
+                                    <tr>
+                                        <td>Màn hinh:</td>
+                                        <td>AMOLED 6.43" Full HD+</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hệ điều hành:</td>
+                                        <td>Android 11</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Camera sau:</td>
+                                        <td>Chính 48MP & phụ 8MP, 2MP, 2MP</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Camera trước:</td>
+                                        <td>13MP</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chip:</td>
+                                        <td>Snapdragon 678</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ram:</td>
+                                        <td>6GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bộ nhớ trong:</td>
+                                        <td>128GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sim:</td>
+                                        <td>2 Nano SIM Hỗ trợ 4G</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pin, sạc:</td>
+                                        <td>5000 mAh, 33W</td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <div>Xiaomi đã trình làng chiếc điện thoại mang tên gọi là Xiaomi Redmi Note 10 với điểm nhấn chính là cụm 4 camera 48 MP, chip rồng Snapdragon 678 mạnh mẽ cùng nhiều nâng cấp như dung lượng pin 5.000 mAh và hỗ trợ sạc nhanh 33 W tiện lợi.</div>
+                                <div><b>Thiết kế đẹp mắt, sang trọng đến từng chi tiết</b></div>
+                                <div>Xiaomi Redmi Note 10 sở hữu khung viền kim loại kết hợp với mặt lưng nhựa có hiệu ứng màu sắc đem lại một ngoại hình sang trọng và bắt mắt.</div>
+                                <div>Tổng trọng lượng của máy chỉ 178.8 g cùng thiết kế mỏng nhẹ ấn tượng với độ mỏng 8.29 mm, cho trải nghiệm cầm nắm thao tác thoải mái, mang điện thoại đi khắp nơi thật dễ dàng.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/2.png">
+                                <div>Cảm biến vân tay một chạm được tích hợp ở cạnh viền giúp việc mở khóa điện thoại nhanh chóng và cho cảm giác cầm tay thoải mái.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/3.png">
+                                <div>Xiaomi Redmi Note 10 đem đến cho người tiêu dùng 3 tùy chọn màu sắc bao gồm: Trắng, Đen và Xanh tự do lựa chọn cho phong cách của bạn.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/4.png">
+                                <div><b>Màn hình siêu lớn, trải nghiệm hoàn hảo</b></div>
+                                <div>Màn hình của Redmi Note 10 được trang bị màn hình giải trí kích thước 6.43 inch, độ phân giải Full HD+, mật độ điểm ảnh cao đến tận 409 ppi, đem đến khả năng hiển thị vô cùng sắc nét.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/5.png">
+                                <div>Bên cạnh đó, tấm nền AMOLED trên Redmi Note 10 còn cho độ sáng cao, màu sắc trung thực, đem đến cho người dùng trải nghiệm giải trí đỉnh cao.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/6.png">
+                                <div>Nổi bật hơn cả chính là trên Xiaomi Redmi Note 10 sử dụng màn hình đục lỗ, với viền màn hình được thiết kế mỏng giúp tối ưu hóa diện tích hiển thị của màn hình mang đến trải nghiệm không gian rộng rãi đủ để bạn thoải mái sử dụng. </div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/7.png">
+                                <div>Đồng thời, màn hình trên Redmi Note 10 còn được chứng nhận bởi SGS, giảm lượng ánh sáng xanh có hại cho mắt, cho bạn thoải mái sử dụng giải trí, đọc báo, xem phim trong thời gian dài. </div>
+                                <div>Ngoài ra, Redmi Note 10 còn hỗ trợ hệ thống âm thanh Hi-res Audio với âm lượng cao và dải âm rộng, cho bạn đắm chìm trong không gian giải trí bất tận.</div>
+                                <div><b>Hiệu năng mượt mà với chip rồng Snapdragon</b></div>
+                                <div>Xiaomi Redmi Note 10 được trang bị bộ vi xử lý Snapdragon 678 được sản xuất trên tiến trình 11 nm hiện đại đem đến một hiệu năng mạnh mẽ, cùng khả năng xử lý mượt mà các tác vụ nhẹ nhàng như lướt Facebook, xem phim hay thậm chí là chơi các tựa game nặng.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/8.png">
+                                <div>Đi kèm với đó là dung lượng RAM 6 GB cho khả năng đa nhiệm tuyệt vời, mở nhiều ứng dụng cùng một lúc hoàn toàn không bị giật lag.</div>
+                                <div>Bộ nhớ trong 128 GB có thể mở rộng khả năng lưu trữ đến 512 GB qua thẻ nhớ ngoài Micro SD, cho bạn thoải mái sử dụng dữ liệu, cài đặt được nhiều ứng dụng hay các tựa game nặng.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/9.png">
+                                <div>Hơn thế nữa, Redmi Note 10 còn được cài đặt sẵn giao diện MIUI 12 mới, tùy biến trên nền Android 11 với nhiều nâng cấp về giao diện lẫn hiệu năng, để mang tới một trải nghiệm giải trí tốt nhất.</div>
+                                <div><b>Bộ bốn camera siêu nét, bắt trọn mọi khoảnh khắc</b></div>
+                                <div>Xiaomi Redmi Note được trang bị cụm camera sau với độ phân giải lần lượt là 48 MP hỗ trợ chụp ảnh góc rộng, camera chụp ảnh góc siêu rộng 8 MP, hai camera 2 MP đo chiều sâu ảnh và chụp ảnh macro.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/10.png">
+                                <div>Cụm camera trên Redmi Note 10 được hỗ trợ bằng công nghệ AI thông minh, cho bạn ghi lại mọi khoảnh khắc trong cuộc sống hàng ngày của bạn một cách dễ dàng và đầy chi tiết. </div>
+                                <div>Với camera góc siêu rộng 8 MP, cho độ mở lên tới 118° giúp bạn có thể ghi lại những dãy núi rộng lớn, những tòa nhà chọc trời hay những cột mốc ở xa một cách dễ dàng mà không cần phải di chuyển nhiều.</div>
+                                <div>Ngoài ra, camera macro và camera đo chiều sâu là công cụ đắc lực để bạn có được những bức ảnh độc đáo ở khoảng cách gần hay chụp ảnh xóa phông một cách ảo diệu mà không cần phải sử dụng đến ứng dụng thứ ba.</div>
+                                <div>Camera trước của máy được thiết kế dạng đục lỗ có độ phân giải 13 MP hỗ trợ đầy đủ các tính năng làm đẹp AI Beautify, chụp ảnh góc rộng, xóa phông với nhiều hiệu ứng bokeh độc đáo cho bạn sẵn sàng chia sẻ ảnh cho người thân và gia đình lên mạng xã hội bất cứ lúc nào.</div>
+                                <div><b>Thoải mái sử dụng với dung lượng pin 5.000 mAh, tích hợp sạc nhanh 33 W </b></div>
+                                <div>Xiaomi trang bị cho Xiaomi Redmi Note 10 viên pin khủng 5.000 mAh, cho phép bạn sử dụng thoải mái trong 1.5 ngày chỉ sau duy nhất một lần sạc.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/11.png">
+                                <div>Ngoài ra, Xiaomi Redmi Note 10 có khả năng sạc nhanh 33 W, nhà sản xuất tự tin cho biết rằng nó cho khả năng sạc đầy 50% pin chỉ trong khoảng 30 phút, cho phép bạn tận dụng tối đa thời gian sử dụng điện thoại của mình.</div>
+                                <img src="../Images/Xiaomi/Xiaomi Redmi Note 10/12.png">
+                                <div>Nhìn chung, Xiaomi Redmi Note 10 là chiếc smartphone hoàn hảo, đáp ứng tốt cho các nhu cầu giải trí, chụp ảnh hay chơi game. Đặc biệt với mức giá bán vô cùng hấp dẫn, chắc chắn đây sẽ là một tân binh sáng giá trên thị trường smartphone đang rất sôi động hiện nay.</div>
+                                <hr color="black"/>
+                                <div class="center"><b>Sản phẩm bán chạy</b></div>
+                                <div class="sp">
+                                    <a href="../HTML/Vsmart Aris.html"><img src="../Images/Vsmart/Vsmart Aris/logo.png" width="300px" height="300px">
+                                    <div>Điện thoại Vsmart Aris</div></a>
+                                    <div class="gia">5.990.000</div>
+                                </div> 
+                                <div class="sp1">
+                                    <a href="../HTML/Sam Sung Galaxy S20 FE.html"><img src="../Images/Sam Sung/Sam sung Galaxy S20 FE/logo.png" width="300px" height="300px">
+                                    <div>Điện thoại Sam Sung Galaxy S20 FE</div></a>
+                                    <div class="gia">15.490.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="../JS/file1.js"></script>
+        <div id="footer">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="col-md-8">
+                        <p class="top"></p><p class="text-center">Hotline: 0967.590.222</p>
+                        <p class="text-center"> Địa chỉ: 304/4a Trường Chinh, Phường 13, Quận Tân Bình, TPHCM</p>
+                        <p class="text-center">Thời gian làm việc: 08 giờ - 17 giờ từ thứ 2 đến thứ 7</p>
+                        <p class="text-center">    (NGHỈ TRƯA 12 giờ - 13 giờ). Chủ nhật: NGHỈ</p>
+                    </div>
+                    <div class="col-md-1">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">FaceBook</a>
+                            </li>
+                            <li>
+                                <a href="#!">Google</a>
+                            </li>
+                            <li>
+                                <a href="#!">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><a href="Trang chủ.html">Home</a></li>
+                            <li><a href="Sam Sung.html">Sam Sung</a></li>
+                            <li><a href="Vsmart.html">Vsmart</a></li>
+                            <li><a href="Xiaomi.html">Xiaomi</a></li>
+                            <li><a href="Realme.html">Realme</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"> <p class="text-center">Copyright 2021 © ALOFONE.VN</p></div>
+            </div>
+        </div>
+        <!--Modal dang nhap-->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="text-align:center">ĐĂNG NHẬP</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Email</label><br />
+                                <input type="text" class="form-control" id="txtemail1" /><span id="tbemail1">(*)</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Mật khẩu</label><br />
+                                <input type="password" class="form-control" id="txtpass" />
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg " id="dangnhap">Đăng nhập</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+                    <div >
+                        <a href="https://vi-vn.facebook.com/login"> <button type="button" class="btn btn-primary btn-lg"> <img src="../Images/fb.png" width="20px" /> Facebook </button> </a>
+                        <a href="https://accounts.google.com/signin"><button type="button" class="btn btn-danger btn-lg"><img src="../Images/logo_gg.png" width="22px" />  Google </button> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal dang ki-->
+        <div id="myModal1" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="text-align:center">ĐĂNG KÍ TÀI KHOẢN</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" class="form-horizontal">
+                            <div id="thongbao>"></div>
+                            <div class="form-group">
+                                <label>Email</label><br />
+                                <input type="text" class="form-control" id="txtemail" placeholder="Nhập Email" /><span id="tbemail">(*)</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Họ và Tên</label><br />
+                                <input type="text" class="form-control" id="txtten" placeholder="Nhập Họ và Tên" /><span id="tbten">(*)</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Mật khẩu</label><br />
+                                <input type="password" class="form-control" id="txtpass" />
+                            </div>
+
+                            <div class="form-group">
+                                <label>Nhập lại mật khẩu</label><br>
+                                <input type="password" class="form-control" id="txtpass" />
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" id="rd" />Tôi đồng ý với tất cả điều khoản.
+
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg" id="dangki">Đăng kí</button>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>

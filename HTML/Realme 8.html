@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
+    <script type="text/javascript" src="../JS/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../JS/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="../CSS/file.css" />
+    <script type="text/javascript" src="../JS/file.js"></script>
+    <link rel="stylesheet" href="../FontAwesome/fontawesome-free-5.13.0-web/css/all.css">
+    <title>Realme 8</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="well well-sm">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p id="date"></p>
+                            <script>
+                                document.getElementById("date").innerHTML = Date();
+                            </script>   
+                    </div>
+                    <div class="col-md-4">
+                        <input type="btn btn-link search-btn" placeholder="Nhập tên sản phẩm cần tìm..." /> <button type="button" class="btn btn-default btn-lg"> <i class="glyphicon glyphicon-search"></i></button>
+                        <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Đăng nhập</button>
+                        <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal1">Đăng kí</button><br>
+                        <button type="button" class="btn btn-default btn-lg"> <a href="Giỏ hàng.html">    <i class="fa fa-shopping-basket" aria-hidden="true"></i> Giỏ Hàng</a></button>
+                    </div>
+                </div>
+                <div class="center"><div class="header1"><img src="../Images/logo.png" width="300px" height="150px"/></div></div>
+            </div>
+            <div class="center">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-3">
+                        <div>
+                            <div id="slider">
+                                <a href="Vsmart.html"> <img class="slide" src="../Images/QuangCao/1.png" stt="0" height="250px" width="800px" /></a>
+                                <a href="Realme.html"><img class="slide" src="../Images/QuangCao/2.png" stt="1" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Sam Sung.html"><img class="slide" src="../Images/QuangCao/3.png" stt="2" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Xiaomi.html"><img class="slide" src="../Images/QuangCao/4.png" stt="3" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Xiaomi.html"><img class="slide" src="../Images/QuangCao/5.png" stt="4" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Sam Sung.html"><img class="slide" src="../Images/QuangCao/6.png" stt="5" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Vsmart.html"><img class="slide" src="../Images/QuangCao/7.png" stt="6" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Sam Sung.html"><img class="slide" src="../Images/QuangCao/8.png" stt="7" height="250px" width="800px" style="display:none" /></a>
+                                <a href="Sam Sung.html"><img class="slide" src="../Images/QuangCao/9.png" stt="8" height="250px" width="800px" style="display:none" /></a>
+                                <a href="#" id="next"><img src="../Images/next.png" height="auto" width="0%" /> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+            <div id="menu">
+                <nav class="navbar navbar-inverse">
+                    <div id="menu" class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-7">
+                            <ul class="nav navbar-nav">
+                                <li><a href="Trang chủ.html"><i class="fas fa-home fa-fw" style="background:rgb(12, 12, 12)"></i>Home</a></li>
+                                <li><a href="Sam Sung.html">Sam sung</a></li>
+                                <li><a href="Vsmart.html">Vsmart</a></li>
+                                <li><a href="Xiaomi.html">Xiaomi</a></li>
+                                <li><a href="Realme.html">Realme</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </nav>
+            </div>
+            <div class="clearfix">     
+                <div id="main">
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-10">
+                            <div class="col-md-8">
+                                <div class="sp3">
+                                    <div class="center"><b>Điện thoại Realme 8</b></div><br>
+                                    <img src="../Images/Realme/Realme 8/logo.png" width="300PX" height="300px">
+                                    <div class="center"><div class="gia"><div class="top1">7.290.000</div></div></div><br>
+                                    <button type="button" class="mua"><a href="../HTML/Giỏ hàng.html"><div class="black">Mua ngay</div></a></button>
+                                    <button type="button" class="them" onclick="getName()"><div class="black" id="them">Thêm vào giỏ hàng</div></div</button>
+                                </div>
+                                <div class="center"><img src="../Images/Realme/Realme 8/1.png"></div>
+                                <div><b>Cấu hình Điện thoại Realme 8 (8GB/128GB)</b></div>
+                                <table border="1">
+                                    <tr>
+                                        <td>Màn hinh:</td>
+                                        <td>Super AMOLED 6.4" FULL HD+</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hệ điều hành:</td>
+                                        <td>Android 11</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Camera sau:</td>
+                                        <td>Chính 64MP & phụ 8MP, 2MP, 2MP</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Camera trước:</td>
+                                        <td>16MP</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chip:</td>
+                                        <td>Media Tek Helio G95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ram:</td>
+                                        <td>8GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bộ nhớ trong:</td>
+                                        <td>128GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sim:</td>
+                                        <td>2 Nano SIM Hỗ trợ 4G</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pin, sạc:</td>
+                                        <td>5000 mAh, 30W</td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <div>Điện thoại Realme 8 được ra mắt nằm trong phân khúc tầm trung, có thiết kế đẹp mắt đặc trưng của Realme, smartphone trang bị hiệu năng bên trong đầy mạnh mẽ và có dung lượng pin tương đối lớn.</div>
+                                <div><b>Lan tỏa năng lượng tích cực</b></div>
+                                <div>Realme 8 gây ấn tượng với trọng lượng chỉ 177 g, Realme đã kỳ công trong thiết kế để cho ra sản phẩm smartphone gọn nhẹ nhất, các cạnh viền bo cong tinh tế tạo cảm giác thoải mái và siêu dễ chịu trong tay bạn. </div>
+                                <img src="../Images/Realme/Realme 8/2.png">
+                                <div>Chiếc điện thoại có 2 phiên bản màu được sáng chế để tạo ra hiệu ứng chói sáng và trong suốt như một tấm gương phản chiếu cho người dùng lựa chọn theo sở thích là: Màu ánh bạc dưới mặt kính lấp lánh sang trọng và màu đen đầy thanh lịch.</div>
+                                <img src="../Images/Realme/Realme 8/3.png">
+                                <div>Ngoài ra, bảo mật vân tay quang học được cài đặt bên dưới màn hình cũng giúp mở khóa máy được nhanh chóng, thuận tiện và an toàn.</div>
+                                <img src="../Images/Realme/Realme 8/4.png">
+                                <div><b>Màn hình đa sắc, hiển thị ấn tượng</b></div>
+                                <div>Tấm nền Super AMOLED được trang bị trên Realme 8, vì vậy mà màn hình của máy sáng rực rỡ, sắc nét dưới độ sáng lên đến 1000 nits, độ tương phản cao giúp điện thoại hiển thị rõ ràng hơn bao giờ hết kể cả bị nắng chói. </div>
+                                <img src="../Images/Realme/Realme 8/5.png">
+                                <div>Công nghệ màn hình hiện đại đi kèm với kích thước 6.4 inch và khả năng mở rộng góc nhìn mang đến nguồn cảm hứng giải trí bất tận cho bạn.</div>
+                                <img src="../Images/Realme/Realme 8/6.png">
+                                <div>Cung cấp tốc độ lấy mẫu cảm ứng màn hình lên đến 180 Hz cũng là một điểm mạnh của Realme 8. Công nghệ tiên tiến này cho người dùng cảm giác uyển chuyển nhanh nhạy khi thao tác màn hình, trải nghiệm chơi game được nâng cao rõ rệt.</div>
+                                <div><b>Hiệu năng máy ảnh đầy lôi cuốn</b></div>
+                                <div>Realme 8 sở hữu bộ 4 máy ảnh có camera chính độ phân giải lên tới 64 MP siêu rõ nét, camera góc rộng 119 độ 8 MP và cuối cùng là hai camera cùng độ phân giải 2 MP.</div>
+                                <img src="../Images/Realme/Realme 8/7.png">
+                                <div>Trong đó, máy ảnh góc rộng giúp bạn thu mọi cảnh đẹp vào ống kính khi đi du lịch hay chụp ảnh xum vầy bên gia đình được nhiều chi tiết hơn.</div>
+                                <img src="../Images/Realme/Realme 8/8.png">
+                                <div>Bắt trọn mọi khoảnh khắc trở nên dễ dàng bởi các tính năng làm đẹp, chỉnh sửa ảnh tự động trên Realme 8, chiếc điện thoại sẵn sàng mang đến người dùng một hiệu năng chụp ảnh chất lượng vượt trội.</div>
+                                <img src="../Images/Realme/Realme 8/9.png">
+                                <div>Camera selfie của máy có độ phân giải 16 MP với nhiều tính năng làm đẹp AI cho người dùng chụp được những bức ảnh selfie lung linh và đem đến sự tự tin trong từng khung ảnh của người dùng.</div>
+                                <div><b>Ngỡ ngàng trước hiệu năng xuất sắc</b></div>
+                                <div>Realme 8 trang bị con chip MediaTek Helio G95 8 nhân có hiệu năng cao, cung cấp khả năng xử lý dữ liệu và hiệu năng gaming mạnh mẽ cho máy. </div>
+                                <img src="../Images/Realme/Realme 8/10.png">
+                                <div>Thiết bị đi kèm 8 GB RAM cho máy chạy mượt mà, trơn tru các tác vụ, đồng thời điện thoại cũng có khả năng đa nhiệm tốt. Bộ nhớ trong lên tới 128 GB ROM khá lớn để bạn lưu giữ nhiều dữ liệu, thông tin như: Video, ứng dụng, hình ảnh,... một cách thoải mái.</div>
+                                <img src="../Images/Realme/Realme 8/11.png">
+                                <div>Realme 8 có giao diện realme UI 2.0 dựa trên Android 11 với nhiều tuỳ biến, bạn có thể tự do kết hợp và tạo ra các giao diện mới theo ý mình muốn.</div>
+                                <img src="../Images/Realme/Realme 8/12.png">
+                                <div><b>Sạc nhanh công suất lớn 30 W</b></div>
+                                <div>Được trang bị viên pin dung lượng lớn 5000 mAh, xứng đáng đạt danh hiệu điện thoại pin trâu, máy cung cấp năng lượng hoạt động hiệu quả cả ngày dài. Giờ đây, bạn chỉ việc thoải mái học tập, làm việc và giải trí, còn lại cứ để Realme 8 lo.</div>
+                                <img src="../Images/Realme/Realme 8/13.png">
+                                <div>Sử dụng củ sạc nhanh lên đến 30 W hỗ trợ người dùng nạp đầy dung lượng điện thoại vô cùng nhanh chóng, người dùng chỉ cần chờ đợi trong vòng chỉ khoảng một tiếng là đã có viên pin tràn đầy năng lượng</div>
+                                <img src="../Images/Realme/Realme 8/14.png">
+                                <div>Realme 8 đang sở hữu các thông số kỹ thuật hấp dẫn, vẻ ngoài năng động của một chiếc smartphone hiện đại, Realme 8 lại vô cùng phù hợp với túi tiền chắc chắn sẽ làm lay động biết bao nhiêu người dùng.</div>    
+                                <hr color="black"/>
+                                <div class="center"><b>Sản phẩm bán chạy</b></div>
+                                <div class="sp">
+                                    <a href="../HTML/Vsmart Aris.html"><img src="../Images/Vsmart/Vsmart Aris/logo.png" width="300px" height="300px">
+                                    <div>Điện thoại Vsmart Aris</div></a>
+                                    <div class="gia">5.990.000</div>
+                                </div> 
+                                <div class="sp1">
+                                    <a href="../HTML/Sam Sung Galaxy S20 FE.html"><img src="../Images/Sam Sung/Sam sung Galaxy S20 FE/logo.png" width="300px" height="300px">
+                                    <div>Điện thoại Sam Sung Galaxy S20 FE</div></a>
+                                    <div class="gia">15.490.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="../JS/file1.js"></script>
+            <br>
+        <div id="footer">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="col-md-8">
+                        <p class="top"></p><p class="text-center">Hotline: 0967.590.222</p>
+                        <p class="text-center"> Địa chỉ: 304/4a Trường Chinh, Phường 13, Quận Tân Bình, TPHCM</p>
+                        <p class="text-center">Thời gian làm việc: 08 giờ - 17 giờ từ thứ 2 đến thứ 7</p>
+                        <p class="text-center">    (NGHỈ TRƯA 12 giờ - 13 giờ). Chủ nhật: NGHỈ</p>
+                    </div>
+                    <div class="col-md-1">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">FaceBook</a>
+                            </li>
+                            <li>
+                                <a href="#!">Google</a>
+                            </li>
+                            <li>
+                                <a href="#!">Twitter</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="list-unstyled">
+                            <li><a href="Trang chủ.html">Home</a></li>
+                            <li><a href="Sam Sung.html">Sam Sung</a></li>
+                            <li><a href="Vsmart.html">Vsmart</a></li>
+                            <li><a href="Xiaomi.html">Xiaomi</a></li>
+                            <li><a href="Realme.html">Realme</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"> <p class="text-center">Copyright 2021 © ALOFONE.VN</p></div>
+            </div>
+        </div>
+        <!--Modal dang nhap-->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="text-align:center">ĐĂNG NHẬP</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>Email</label><br />
+                                <input type="text" class="form-control" id="txtemail1" /><span id="tbemail1">(*)</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Mật khẩu</label><br />
+                                <input type="password" class="form-control" id="txtpass" />
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg " id="dangnhap">Đăng nhập</button>
+
+                            </div>
+
+                        </form>
+                    </div>
+                    <div >
+                        <a href="https://vi-vn.facebook.com/login"> <button type="button" class="btn btn-primary btn-lg"> <img src="../Images/fb.png" width="20px" /> Facebook </button> </a>
+                        <a href="https://accounts.google.com/signin"><button type="button" class="btn btn-danger btn-lg"><img src="../Images/logo_gg.png" width="22px" />  Google </button> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal dang ki-->
+        <div id="myModal1" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="text-align:center">ĐĂNG KÍ TÀI KHOẢN</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form role="form" class="form-horizontal">
+                            <div id="thongbao>"></div>
+                            <div class="form-group">
+                                <label>Email</label><br />
+                                <input type="text" class="form-control" id="txtemail" placeholder="Nhập Email" /><span id="tbemail">(*)</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Họ và Tên</label><br />
+                                <input type="text" class="form-control" id="txtten" placeholder="Nhập Họ và Tên" /><span id="tbten">(*)</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Mật khẩu</label><br />
+                                <input type="password" class="form-control" id="txtpass" />
+                            </div>
+
+                            <div class="form-group">
+                                <label>Nhập lại mật khẩu</label><br />
+                                <input type="password" class="form-control" id="txtpass" />
+                            </div>
+
+                            <div class="form-group">
+                                <input type="radio" id="rd" />Tôi đồng ý với tất cả điều khoản.
+
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg" id="dangki">Đăng kí</button>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</body>
+</html>
